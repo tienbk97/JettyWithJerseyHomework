@@ -21,8 +21,10 @@ This repo is an example of a RESTful API using Jetty & Jersey.
     
   Body
   
-      "content" : "Note content",
-      "created_by" : "username"
+      {
+        "content" : "Note content",
+        "created_by" : "username"
+      }
 
 - Get Note by Id
 
@@ -46,8 +48,10 @@ This repo is an example of a RESTful API using Jetty & Jersey.
 
   PUT method to /note/:id
   
-      "content" : "Note content",
-      "lastupdated_by" : "username"
+      {
+        "content" : "Note content",
+        "lastupdated_by" : "username"
+      }
 
 - Delete Note By Id
 
