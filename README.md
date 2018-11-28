@@ -41,7 +41,7 @@ This repo is an example of a RESTful API using Jetty & Jersey.
   Query params:
   
     + created_by
-    + from (long value only
+    + from (long value only)
     + content
 
 - Edit Note by Id
