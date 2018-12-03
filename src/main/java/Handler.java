@@ -15,7 +15,6 @@ public class Handler {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public Response forFun() {
-        System.out.println("GET METHOD");
         return Response.ok("Hello there !!!", MediaType.TEXT_PLAIN).build();
     }
 
@@ -23,7 +22,6 @@ public class Handler {
     @Path("/note/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getNoteById(@PathParam("id") String id) {
-        System.out.println("GET METHOD: Get Note By Id " + id);
         if(id == null || id.trim().length() == 0) {
             return Response.serverError().entity("ID cannot be blank").build();
         }
@@ -39,7 +37,6 @@ public class Handler {
     @Path("/note")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getNoteList() {
-        System.out.println("GET METHOD: Get Note List");
         return Response.ok(new Gson().toJson(listNote), MediaType.APPLICATION_JSON).build();
     }
 
@@ -51,7 +48,6 @@ public class Handler {
             @DefaultValue("")   @QueryParam("content")      String content,
             @DefaultValue("-1") @QueryParam("from_date")    long from
             ) {
-        System.out.println("GET METHOD: Search Notes " + user + " " +  content + " " +from);
         List<Note> result = new ArrayList<Note>();
         for (int i = 0; i < listNote.size(); i++) {
             Note currentNote = listNote.get(i);
@@ -73,7 +69,6 @@ public class Handler {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response createNote(String body) {
-        System.out.println("POST METHOD: Add Note with Body \n" + body);
         try {
             Gson gson = new Gson();
             Note note;
@@ -91,7 +86,6 @@ public class Handler {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response updateNote(@PathParam("id") String id, String body) {
-        System.out.println("PUT METHOD: Update Note By Id " + id + " with body \n" + body);
         if(id == null || id.trim().length() == 0) {
             return Response.serverError().entity("ID cannot be blank").build();
         }
@@ -116,7 +110,6 @@ public class Handler {
     @Path("/note/{id}")
     @Produces(MediaType.TEXT_PLAIN)
     public Response deleteNote(@PathParam("id") String id) {
-        System.out.println("DELETE METHOD: Delete Note By Id" + id);
         if(id == null || id.trim().length() == 0) {
             return Response.serverError().entity("ID cannot be blank").build();
         }
