@@ -7,13 +7,20 @@ import javax.ws.rs.core.Response;
 import java.util.ArrayList;
 import java.util.List;
 
-@Path("/note")
+@Path("/")
 public class Handler {
 
     static List<Note> listNote = new ArrayList<Note>();
 
     @GET
-    @Path("/{id}")
+    @Produces(MediaType.TEXT_PLAIN)
+    public Response forFun() {
+        System.out.println("GET METHOD");
+        return Response.ok("Hello there !!!", MediaType.TEXT_PLAIN).build();
+    }
+
+    @GET
+    @Path("/note/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getNoteById(@PathParam("id") String id) {
         System.out.println("GET METHOD: Get Note By Id " + id);
@@ -29,6 +36,7 @@ public class Handler {
     }
 
     @GET
+    @Path("/note")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getNoteList() {
         System.out.println("GET METHOD: Get Note List");
@@ -36,7 +44,7 @@ public class Handler {
     }
 
     @GET
-    @Path("/search")
+    @Path("/note/search")
     @Produces(MediaType.APPLICATION_JSON)
     public Response searchNotesByCreatedBy(
             @DefaultValue("")   @QueryParam("created_by")   String user,
@@ -61,6 +69,7 @@ public class Handler {
     }
 
     @POST
+    @Path("/note")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response createNote(String body) {
@@ -78,7 +87,7 @@ public class Handler {
     }
 
     @PUT
-    @Path("/{id}")
+    @Path("/note/{id}")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response updateNote(@PathParam("id") String id, String body) {
@@ -104,7 +113,7 @@ public class Handler {
     }
 
     @DELETE
-    @Path("/{id}")
+    @Path("/note/{id}")
     @Produces(MediaType.TEXT_PLAIN)
     public Response deleteNote(@PathParam("id") String id) {
         System.out.println("DELETE METHOD: Delete Note By Id" + id);
