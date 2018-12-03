@@ -8,7 +8,9 @@ public class App {
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
         context.setContextPath("/");
 
-        Server jettyServer = new Server(8080);
+        String port = System.getenv("PORT") != null ? System.getenv("PORT") : "8080";
+
+        Server jettyServer = new Server(Integer.parseInt(port));
         jettyServer.setHandler(context);
 
         ServletHolder jerseyServlet = context.addServlet(

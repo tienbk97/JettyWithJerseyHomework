@@ -2,45 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3976d554-32c1-437e-95a2-538fc761dcf9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Handler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Note.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Note.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/aopalliance-repackaged-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/gson-2.8.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/hk2-api-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/hk2-locator-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/hk2-utils-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/javassist-3.22.0-CR2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/javax.annotation-api-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/javax.inject-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/javax.inject-2.5.0-b42.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/javax.json-1.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/javax.ws.rs-api-2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jersey-client-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jersey-common-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jersey-container-servlet-core-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jersey-entity-filtering-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jersey-hk2-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jersey-media-jaxb-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jersey-media-moxy-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jersey-server-2.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jetty-http-9.4.14.v20181114.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jetty-io-9.4.14.v20181114.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jetty-security-9.4.14.v20181114.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jetty-server-9.4.14.v20181114.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jetty-servlet-9.4.14.v20181114.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/jetty-util-9.4.14.v20181114.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/org.eclipse.persistence.asm-2.6.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/org.eclipse.persistence.core-2.6.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/org.eclipse.persistence.moxy-2.6.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/osgi-resource-locator-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/lib/validation-api-1.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tiennha/tiennha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Note.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,6 +18,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1720731716">
@@ -63,21 +36,24 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Procfile" value="35" />
-          <entry key="java" value="88" />
-          <entry key="xml" value="65" />
+          <entry key="env" value="11" />
+          <entry key="java" value="182" />
+          <entry key="xml" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="88" />
-          <entry key="PLAIN_TEXT" value="35" />
-          <entry key="XML" value="65" />
+          <entry key="JAVA" value="182" />
+          <entry key="PLAIN_TEXT" value="46" />
+          <entry key="XML" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Procfile" value="1" />
           <entry key="class" value="1" />
+          <entry key="env" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="java" value="1" />
           <entry key="xml" value="1" />
         </counts>
@@ -86,7 +62,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -97,13 +73,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+            <state relative-caret-position="206">
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -112,14 +88,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="170">
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -171,11 +165,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Note.java" />
-        <option value="$PROJECT_DIR$/src/main/java/App.java" />
         <option value="$PROJECT_DIR$/settings.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Handler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/App.java" />
       </list>
     </option>
   </component>
@@ -214,10 +210,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
+    <option name="x" value="300" />
+    <option name="y" value="40" />
     <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="height" value="660" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -270,11 +266,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543820116701" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543823270672" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.54252875" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -316,18 +312,18 @@
       <updated>1543225460962</updated>
       <workItem from="1543564266233" duration="1021000" />
       <workItem from="1543804031869" duration="1461000" />
-      <workItem from="1543817192620" duration="3015000" />
+      <workItem from="1543817192620" duration="5937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5497000" />
+    <option name="totallyTimeSpent" value="8419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25428414" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27418464" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -337,7 +333,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39748955" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4089958" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,7 +341,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3294979" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32845187" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.31799164" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -358,7 +354,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Flutter Inspector" order="8" />
       <window_info anchor="right" id="Flutter Outline" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="10" visible="true" weight="0.32946378" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.56349206" />
       <window_info anchor="right" id="Database" order="11" />
       <window_info anchor="right" id="Bean Validation" order="12" />
     </layout>
@@ -427,27 +423,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
+    <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+        <state relative-caret-position="206">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/src/main/java/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="170">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
