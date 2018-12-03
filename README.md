@@ -1,6 +1,8 @@
 # JettyWithJerseyHomework
 
-This repo is an example of a RESTful API using Jetty & Jersey.
+This repo is an example of a RESTful API using Jetty with Filter & Jersey.
+This repo was deployed to Heroku at: https://tiennhajetty.herokuapp.com/ 
+Limit 1 request for each user in 1 sec
 
 # Note
   - id
