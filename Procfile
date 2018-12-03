@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* App
+web: java -jar target/tiennha-1.0-SNAPSHOT.jar
