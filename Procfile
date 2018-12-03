@@ -1,1 +1,1 @@
-web: java -jar target/tiennha-1.0-SNAPSHOT.jar
+web: java -jar target/tiennha/tiennha.jar
