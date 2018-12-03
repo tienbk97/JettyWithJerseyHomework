@@ -4,7 +4,7 @@ This repo is an example of a RESTful API using Jetty with Filter & Jersey.
 
 This repo was deployed to Heroku at: https://tiennhajetty.herokuapp.com/ 
 
-Limit 1 request for each user in 1 sec
+Limit 1 request for each user in 1 sec. If the user reach that limit, their requests will get rejected. (Response code 429)
 
 # Note
   - id
