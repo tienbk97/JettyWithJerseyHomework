@@ -18,8 +18,8 @@ public class App {
         context.addFilter( LogFilter.class, "/*", REQUEST_SCOPE );
         // For limit
         FilterHolder filterHolder = new FilterHolder( DoSFilter.class );
-        filterHolder.setInitParameter("maxRequestsPerSec", "1");  // max requests per second per client
-        filterHolder.setInitParameter("delayMs", "-1");           // millisec to delay excess requests. -1 means reject (for testing)
+        filterHolder.setInitParameter("maxRequestsPerSec", "10");  // max requests per second per client
+        filterHolder.setInitParameter("delayMs", "1000");           // millisec to delay excess requests. -1 means reject (for testing)
         filterHolder.setInitParameter("remotePort", "false");     // true = track connections by remote ip+port
         filterHolder.setInitParameter("enabled", "true");
         filterHolder.setInitParameter("trackSessions", "true");
