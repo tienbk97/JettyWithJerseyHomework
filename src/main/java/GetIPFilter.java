@@ -31,7 +31,7 @@ public class GetIPFilter implements javax.servlet.Filter {
             HttpServletRequest request = (HttpServletRequest) req;
             String ipAddress = request.getHeader("X-FORWARDED-FOR");
             if (ipAddress == null) {
-                ipAddress = request.getRemoteAddr();
+                ipAddress = request.getRemoteAddr() + request.getRemotePort();
             }
 
             Long time = new Date().getTime();
