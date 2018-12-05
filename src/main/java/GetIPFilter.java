@@ -29,7 +29,7 @@ public class GetIPFilter implements javax.servlet.Filter {
 
         if (req instanceof HttpServletRequest) {
             HttpServletRequest request = (HttpServletRequest) req;
-            String ipAddress = request.getRemoteAddr()
+            String ipAddress = request.getRemoteAddr();
 
             Long time = new Date().getTime();
             boolean isBlocked = false;
