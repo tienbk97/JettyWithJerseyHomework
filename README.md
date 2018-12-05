@@ -11,7 +11,7 @@ hey -n 300 -c 10 -q 1 -m POST -d '{"content":"This is a test","created_by":"TIEN
 
 Test create note with 300 requests total. 10 requests were sent per sec. 
 
-(only 1 request get though per 5 sec => 300 / 5 = 60 r
+(only 1 request get though per 5 sec => 300 / 5 = 60 response)
 
 Summary:
 
