@@ -12,20 +12,12 @@ import org.slf4j.LoggerFactory;
 import org.slf4j.Marker;
 import org.slf4j.MarkerFactory;
 
-/**
- * A Servlet filter for logging request information.
- * In this filter, it prints the requests headers on System.out.
- * @author jim
- */
 public class LogFilter implements javax.servlet.Filter {
     private static Logger logger;
     private static Marker marker;
 
-    /** initialize filter for use */
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        // normally you use the full class name as logger category.
-        // I'm using the simple name to make log messages shorter.
         logger = LoggerFactory.getLogger(this.getClass().getSimpleName() );
         marker = MarkerFactory.getMarker("");
     }
@@ -41,13 +33,11 @@ public class LogFilter implements javax.servlet.Filter {
                     )
             );
         }
-        // pass request to next filter in chain
         chain.doFilter(req, resp);
     }
 
     @Override
     public void destroy() {
-        // cleanup after context is stopped
     }
 
 }
