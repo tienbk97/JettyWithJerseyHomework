@@ -41,11 +41,11 @@ public class GetIPFilter implements javax.servlet.Filter {
                 long previousVisit = users.get(ipAddress);
                 long distance = time - previousVisit;
                 if (distance < limit) {
-                    logger.info(marker, String.format("BLOCKED %s WAIT: %d milisecs", ipAddress, distance));
+                    Long waitingTime = limit - distance;
+                    logger.info(marker, String.format("BLOCKED %s WAIT: %d milisecs", ipAddress, waitingTime));
                     RequestDispatcher rd = req.getRequestDispatcher("index.html");
                     rd.include(req, resp);
                     HttpServletResponse response = (HttpServletResponse) resp;
-                    Long waitingTime = limit - distance;
                     response.sendError(400, String.format("Your request was blocked. You should wait %f seconds then retry", waitingTime.floatValue() / 1000));
                     isBlocked = true;
                 } else {
